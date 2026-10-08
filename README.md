@@ -1,2 +1,3 @@
 # Smart-Antenna-Fuzzy-Logic
 Fuzzy logic-based Smart Antenna Beam Selection System that uses RSSI, SNR, and AoA to recommend Narrow, Medium, or Wide beams and calculate beam solid angle through an interactive Streamlit interface.
+This project implements a fuzzy logic-based smart antenna beam selection system. It takes RSSI, SNR, and Angle of Arrival (AoA) as inputs, applies triangular membership functions and a 12-rule fuzzy inference system, and recommends a Narrow, Medium, or Wide antenna beam. The system also calculates the corresponding beam solid angle using weighted-average defuzzification. An interactive Streamlit interface displays the final prediction, membership strengths, fuzzification details, and fired rules for transparent and explainable decision-making.
